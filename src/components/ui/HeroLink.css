@@ -1,0 +1,17 @@
+.HeroLink{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+    padding: 12px 33px;
+    display: inline-block;
+    color: #f2f2f2;
+    font-weight: 600;
+    border-radius: 30px;
+    letter-spacing: 0.7px;
+    background-color: #03c161;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.HeroLink:hover{
+    background-color: #00b65b;
+}

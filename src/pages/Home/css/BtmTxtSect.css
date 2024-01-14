@@ -1,0 +1,78 @@
+.BtmTxtSect {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.svty {
+  width: 100%;
+  max-width: 550px;
+  margin: 95px 0px;
+  margin-bottom: 70px;
+  text-align: center;
+  position: relative;
+  z-index: 4;
+}
+
+.lnkdif {
+  color: #1ca761;
+  margin-left: 10px;
+  background-color: #09090b;
+}
+
+.lnkdif:hover {
+  color: #09090b;
+  background-color: #cdd1d8;
+}
+
+.BtmTxtSect svg {
+  right: -350px;
+  position: absolute;
+}
+
+.wfys {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wfys a {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .BtmTxtSect svg {
+    right: -400px;
+  }
+}
+
+@media (max-width: 760px) {
+  .BtmTxtSect svg {
+    right: -380px;
+    bottom: -150px;
+    height: 430px;
+  }
+}
+
+@media (max-width: 600px) {
+  .BtmTxtSect svg {
+    right: -380px;
+    bottom: -250px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .BtmTxtSect svg {
+    right: -380px;
+    bottom: -230px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .svty h2 {
+    margin: 18px 10px;
+  }
+  .svty p {
+    padding: 0px 10px;
+  }
+}

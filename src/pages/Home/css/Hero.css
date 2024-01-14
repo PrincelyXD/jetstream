@@ -1,0 +1,92 @@
+.Hero {
+  height: 700px;
+  width: 89%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  border-radius: 30px;
+  background-image: url("../../../assets/liines.svg");
+  background-color: #f4f6fa;
+}
+
+/* HeroTsx styling */
+
+.HeroTsx {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 440px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.top-span {
+  color: #1c2499;
+  font-size: 14.5px;
+  display: inline-block;
+  margin-top: 70px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.generic h2 {
+  margin: 15px auto;
+  width: 700px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 0.9;
+  letter-spacing: -1.5px;
+}
+
+.generic p {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 100;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+}
+
+.globeMobile {
+  display: none;
+}
+
+/* styles for mobile */
+@media (max-width: 950px) {
+  .HeroTsx {
+    width: 80%;
+  }
+  .generic h2 {
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 600;
+    max-width: 100%;
+    font-family: sans-serif;
+  }
+
+  .generic p {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .HeroTsx {
+    width: 95%;
+  }
+  .top-span {
+    font-size: 13px;
+    margin-top: 90px;
+  }
+
+
+}

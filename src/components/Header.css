@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
+.Header {
+  width: 89%;
+  margin: 0 auto;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+
+}
+
+.Logo svg {
+  height: 46px;
+}
+
+.nav-links {
+  display: block;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-weight: 600;
+  text-transform: uppercase;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "IBM Plex Mono", monospace;
+}
+.nav-links li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav-links a {
+  padding: 12px;
+  color: #0d0d10df;
+  text-decoration: none;
+}
+
+.m-div {
+  width: 38%;
+  min-width: 350px;
+}
+.Toggler {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .Header {
+    width: 92%;
+    height: 100px;
+    display: flex;
+    position: relative;
+  }
+
+  .m-div,
+  .nav-btn {
+    display: none;
+  }
+
+  .Logo svg {
+    height: 45px;
+  }
+
+  .Toggler {
+    display: block;
+  }
+}

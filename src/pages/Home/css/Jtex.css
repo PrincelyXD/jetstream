@@ -1,0 +1,89 @@
+.Jtex {
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+.lklm {
+  width: 78%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.spv {
+  color: #1c2499;
+  font-size: 14.5px;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.gklo {
+  height: fit-content;
+  width: 500px;
+  margin-top: 100px;
+}
+
+.gklo h2 {
+  color: #09090b;
+  font-size: 34px;
+  margin: 18px 0px;
+  margin-right: 20px;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  font-family: "Roboto", sans-serif;
+}
+.gklo p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 27px;
+  margin-top: 40px;
+}
+
+.dashImg {
+  width: 78%;
+  max-width: 1114px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.dashImg img {
+  width: 100%;
+  margin-top: 70px;
+}
+
+@media (max-width: 1190px) {
+  .Jtex {
+    height:800px;
+  }
+}
+
+@media (max-width: 785px) {
+  .lklm {
+    width: 78%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .gklo {
+    width: 100%;
+  }
+  .btmJtex {
+    margin-top: 0px;
+  }
+  .gklo p {
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .dashImg {
+    height: fit-content;
+    overflow: visible;
+  }
+}

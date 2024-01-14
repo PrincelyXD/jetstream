@@ -1,0 +1,52 @@
+.TextSlider {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  background: #eaeafe;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* animation: glide 40s linear infinite; */
+}
+
+/* @keyframes glide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
+
+.carousel {
+  color: #fff;
+  width: 100%;
+  min-width: 1200px;
+  margin-right: 40px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carousel h3 {
+  color: #1c2499;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.carousel h2 {
+  color: #1c2499;
+  margin: 0 20 px;
+  font-size: 21px;
+  font-weight: 200;
+  letter-spacing: 0.8px;
+  font-family: "IBM Plex Mono", monospace;
+}

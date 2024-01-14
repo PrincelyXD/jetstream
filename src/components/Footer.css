@@ -1,0 +1,134 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  background: #161619;
+  font-family: "Roboto", sans-serif;
+}
+.FooterTop {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.logo-cont {
+  width: 100%;
+  height: 120px;
+  max-width: 250px;
+  margin-right: 80px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.logo-cont span {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.logo-cont img {
+  height: 65px;
+}
+.logo-cont svg {
+  height: 25px;
+  margin: 5px 8px;
+  margin-left: 0;
+}
+
+.link-box {
+  width: 100%;
+  margin-top: 60px;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.link-box div {
+  color: #b1b2b4;
+  font-size: 16px;
+  min-width: 100px;
+  max-width: 280px;
+  margin: 0px 35px;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.link-box h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+}
+.link-box a {
+  color: #b1b2b4;
+  margin: 22px 0px;
+  display: block;
+  font-weight: 300;
+  line-height: 28px;
+  text-decoration: none;
+}
+.link-box p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 25px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.footerBtm {
+  background: #09090b;
+}
+.typBlack {
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  color: #b1b2b4;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  letter-spacing: 0.3px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerBtm a {
+  color: #b1b2b4;
+  font-size: 15.5px;
+  margin-right: 40px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+@media (max-width: 840px) {
+  .typBlack {
+    flex-wrap: wrap;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .typBlack a {
+    margin: 25px 0px;
+    margin-right: 40px;
+  }
+
+  .typBlack div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .typBlack span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .logo-cont img {
+    height: 60px;
+  }
+}
