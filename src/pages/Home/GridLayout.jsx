@@ -1,6 +1,6 @@
 import "./css/GridLayout.css";
 import Grid1 from "../../components/ui/svgs/Grid1";
-import Icon1 from "../../components/ui/svgs/icon1";
+import Icon1 from "../../components/ui/svgs/Icon1";
 import Icon2 from "../../components/ui/svgs/Icon2";
 import gridImg from "../../assets/imgs/grid2.png";
 import { motion, AnimatePresence } from "framer-motion";
